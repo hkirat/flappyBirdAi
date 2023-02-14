@@ -150,13 +150,7 @@ var render = function () {
 	ctx.fillText("Points: " +parseInt(score), 32, 32);
 	ctx.fillText("Max Points: " +parseInt(maxScore), 32, 62);
 	ctx.fillText("Generation: " +parseInt(gen), 32, 100);
-
-/*	// Score
-	ctx.fillStyle = "rgb(250, 250, 250)";
-	ctx.font = "24px Helvetica";
-	ctx.textAlign = "left";
-	ctx.textBaseline = "top";
-*/};
+};
 
 // the main loop of the game
 ctr = 0;
